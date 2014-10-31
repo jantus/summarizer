@@ -1,0 +1,3 @@
+main.o: main.cpp Vertex.h Vertex.cpp Graph.h
+Vertex.o: Vertex.cpp Vertex.h
+Graph.o: Graph.cpp Graph.h Vertex.h

@@ -1,0 +1,4 @@
+main.o: main.cpp src/summarizer.cc src/Vertex.h src/Vertex.cpp \
+  src/Graph.cpp src/Graph.h
+Vertex.o: src/Vertex.cpp src/Vertex.h
+Graph.o: src/Graph.cpp src/Graph.h src/Vertex.h
